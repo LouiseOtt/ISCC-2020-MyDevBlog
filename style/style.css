@@ -1,0 +1,162 @@
+@font-face{
+    font-family: "FilmLetters.ttf";
+    src: url('FilmLetters.ttf');
+}
+
+@font-face{
+    font-family: "Cinematic-Language.ttf";
+    src: url('Cinematic-Language.ttf')
+}
+
+body{
+    font-family: "FilmLetters.ttf";
+    }
+
+header{
+    font-family: "Cinematic-Language.ttf";
+    }
+
+footer{
+    font-family: "Cinematic-Language.ttf";
+    height: 350px;
+    width: 100%;
+    background-color: #FAB800;
+    margin-top: 230px;
+    }
+
+h1{
+    font-family: "Cinematic-Language.ttf";
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+h2{
+    font-family: "Cinematic-Language.ttf";
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    color: #FAB800;
+    padding-left: 10%;
+}
+
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.article{
+    text-align: right;
+}
+
+a { color: black;
+    text-decoration: none;
+}
+  
+a:hover{ 
+    color: #FAB800;
+    text-shadow: -1px 0 black, 0 1px black
+}
+
+.menu1{
+    height: 30px;
+    background-color: #FAB800;
+    padding-top: 10px;
+
+}
+
+#blocimage{
+        height: 150px;
+        width: 100%;
+        background-image:url(cinema.jpg);
+        background-position: top;
+        padding-top: 55px;
+    }
+
+    #nom{
+        width:250px;
+        height:30px;
+        border:2px solid #FAB800;
+        margin-bottom: 10px;
+    }
+    #nom:hover{
+        border:2px solid #FAB800;
+    }
+    
+    #mail{
+        width: 250px;
+        height:30px;
+        border:2px solid #FAB800;
+        margin-bottom: 10px;
+    }
+    #mail:hover{
+        border:2px solid #FAB800;
+    }
+    
+    #messag{
+        width:250px;
+        height:70px;
+        border:2px solid #FAB800;
+        margin-bottom: 10px;
+    }
+    
+    #messag:hover{
+        border:2px solid #FAB800;
+    }
+    
+    input[type="submit"]{
+        font-family: "Cinematic-Language.ttf";
+        background-color:#FAB800;
+        border:2px solid #FAB800;
+        color: black;
+    }
+    
+    input[type="submit"]:hover{
+        color :rgb(255, 169, 98);
+        background-color: #FAB800;
+        border:2px solid #FAB800;
+        box-shadow: 0px 0px 4px #333;
+    }
+    
+    fieldset{
+        width:300px;
+        height: 250px;
+        padding:8px;
+        border:4px solid #FAB800;
+        background-color: whitesmoke;
+    }
+    #titre{
+        width: 250px;
+        height:30px;
+        border:2px solid #FAB800;
+        margin-bottom: 10px;
+    }
+    #titre:hover{
+        border:2px solid#FAB800;
+    }
+    
+    #red_article{
+        width:250px;
+        height:70px;
+        border:2px solid #FAB800;
+        margin-bottom: 10px;
+    }
+    
+    #red_article:hover{
+        border:2px solid #FAB800;
+    }
+    
+
+.GitHub:hover{
+    border:2px solid whitesmoke;
+}
+.insta:hover{
+    border:2px solid whitesmoke;
+}
+.fb:hover{
+    border:2px solid whitesmoke;
+}
+.LkIn:hover{
+    border:2px solid whitesmoke;
+}
