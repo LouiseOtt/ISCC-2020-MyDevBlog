@@ -25,8 +25,8 @@ footer{
     }
 
 h1{
-    font-family: "Cinematic-Language.ttf";
-    font-size: 60px;
+    font-family: "FilmLetters.ttf";
+    font-size: 70px;
     color: whitesmoke;
 }
 
@@ -47,11 +47,12 @@ p{
 }
 
 .article{
-    text-align: right;
+    border:2px solid whitesmoke
 }
 
 a { color: black;
     text-decoration: none;
+    text-align: center;
 }
   
 a:hover{ 
@@ -147,6 +148,25 @@ a:hover{
         border:2px solid #FAB800;
     }
     
+    #login{
+        width:250px;
+        height:30px;
+        border:2px solid #FAB800;
+        margin-bottom: 10px;
+    }
+    #login:hover{
+        border:2px solid #FAB800;
+    }
+
+    #password{
+        width:250px;
+        height:30px;
+        border:2px solid #FAB800;
+        margin-bottom: 10px;
+    }
+    #password:hover{
+        border:2px solid #FAB800;
+    }
 
 .GitHub:hover{
     border:2px solid whitesmoke;

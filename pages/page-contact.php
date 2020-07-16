@@ -1,10 +1,11 @@
+<center>
 <?php $page = 'contact'?>
 <html>
 <link rel="stylesheet" href="style.css">
 <meta charset="utf-8">
 
 <?php
-$bdd = new PDO("mysql:host=localhost;dbname=louise-ott;charset=utf8", "root", "");
+$bdd = new PDO("mysql:host=localhost;dbname=ISCC-2020-MyDevBlog;charset=utf8", "root", "");
 if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
    if(!empty($_POST['nom']) AND !empty($_POST['mail'])) {
       
@@ -16,21 +17,16 @@ if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
       $message = 'Votre message a bien été envoyé !';
 
    } else {
-      $message = 'Veuillez remplir tous les champs';
+      $message = 'Veuillez remplir tous les champs !';
    }
 }
 ?>
 
-<title>Contacts</title>
+<title>Contact</title>
     <!DOCTYPE html>
 <html>
-<head>
-   <title>Rédaction</title>
-   <meta charset="utf-8">
-</head>
 <body>
-    <center>
-    <h2>Contacts</h2>
+    <h2>Contact</h2>
    <form method="POST">
    <fieldset>
    <label for="nom">Votre nom & prénom</label>
@@ -49,8 +45,8 @@ if(isset($_POST['nom'], $_POST['mail'], $_POST['messag'])) {
 
     </fieldset> 
    </form>
-</center>
    <br />
    <?php if(isset($message)) { echo $message; } ?>
+   </center>
 </body>
 </html>
