@@ -1,8 +1,8 @@
 <center>
+<html><link rel="stylesheet" href="style.css"></html>
 <?php
-echo'<link href="style/style.css" rel="stylesheet" type = "text/css">';
 
-$bdd = new PDO("mysql:host=localhost;dbname=louise-ott;charset=utf8", "root", "");
+$bdd = new PDO("mysql:host=localhost;dbname=ISCC-2020-MyDevBlog;charset=utf8", "root", "");
 if(isset($_POST['titre'], $_POST['red_article'])) {
    if(!empty($_POST['titre']) AND !empty($_POST['red_article'])) {
       
@@ -19,7 +19,10 @@ if(isset($_POST['titre'], $_POST['red_article'])) {
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Rédaction</title>
+   <?php include "header2.php"?>
+   <link rel="stylesheet" href="../style/style.css">
+   <title>Rédaction d'un article</title>
+   <h6>Rédaction d'un article</h6>
    <meta charset="utf-8">
 </head>
 <body>
@@ -31,9 +34,9 @@ if(isset($_POST['titre'], $_POST['red_article'])) {
         <input type="text" name="titre" id="titre">
     </div>
 
-    <textarea name="red_article" placeholder="Votre message"></textarea><br />
+    <br><textarea name="red_article" placeholder="Votre message"></textarea><br />
    
-      <br><input type="submit" value="Envoyer" />
+      <br><br><input type="submit" value="Envoyer" />
     </fieldset>
 </form>
    <br />
